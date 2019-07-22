@@ -2,7 +2,7 @@ import cv2
 import sys
 
 Frame1 = None
-video = cv2.VideoCapture("dancing.mp4")
+video = cv2.VideoCapture(0)
 check, Frame1 = video.read()
 check, Frame = video.read()
 
